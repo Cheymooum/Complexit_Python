@@ -1,4 +1,4 @@
-## TP 4 suite BD
+## TP 3 et début 4 BD
 def retindice(T,e):
     if trie(T) == False:
         return 'Impossible tableau pas trié'
