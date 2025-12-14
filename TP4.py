@@ -1,4 +1,7 @@
 # TP4 
+# Lorsque la méthode ne trouve pas l'élément dans le tableau,
+# améliorer la méthode recherche dichotomie pour qu'elle retourne l'indice de la position
+# que devrait avoir l'élément dans le tableau.
 def ajoute(l,e):
     T=[0]*(len(l)+1)
     for i in range(0,len(l)):
