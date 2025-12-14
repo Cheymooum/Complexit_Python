@@ -28,6 +28,7 @@ def dichopos(l,e):
         return deb
     return deb+1
 
+# Méthode insertion qui insère un élément dans un tableau
 def inserdicho(l,e):
     ind=dichopos(l,e)
     T=[]
@@ -38,6 +39,8 @@ def inserdicho(l,e):
         T=ajoute(T,l[i])
     return T
     
+# Méthode tri insertion en utilisant la recherche dichotomique pour
+# trouver la position de l'élément à insérer
 def triinserdicho(l):
     T=[l[0]]
     for i in range(1,len(l)):
